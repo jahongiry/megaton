@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  height: 150vh;
+}
+
+.container .home {
+  width: 100%;
+  height: 120vh;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  padding: 0 97px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar ul li {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px 13px;
+  background: #6B6B6B33;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  line-height: 23px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  transition: .5s;
+}
+
+.button:hover,
+.navbar ul li:hover {
+  background: #FD9200;
+}
+
+.navbar ul li a {
+  color: white;
+  font-family: sans-serif;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); */
+  opacity: 10;
+}
+
+.button {
+  transition: .5s;
+  width: 65px;
+  height: 37px;
+  border: none;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: #6B6B6B33;
+  border-radius: 8px;
+  color: white;
+  font-family: sans-serif;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); */
+  opacity: 10;
+  font-weight: 700;
+}
+
+.option {
+  color: white;
+  font-family: sans-serif;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); */
+  opacity: 10;
+  font-weight: 700;
+  background: #6B6B6B33;
+
+
+}
+
+.button:focus {
+  outline: none;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 70px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: start;
+  text-align: start;
+  height: 40vh;
+}
+
+.main a {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  text-decoration: none;
+
+}
+
+.main ul {
+  display: flex;
+  gap: 16px;
+}
+
+.main a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 3px;
+  background-color: #FFF;
+  transition: width 0.3s ease;
+}
+
+.main a:hover::after {
+  width: 100%;
+}
+
+.main a:hover {
+  color: #FFFFFF;
+}
+
+.one-text {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.text {
+  font-size: 55px;
+  font-weight: 300;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  transform: scaleY(.6);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+}
+
+.two-text {
+  font-size: 120px;
+  line-height: 94px;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  transform: scaleY(.7);
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.bottom-p {
+  width: 794px;
+  font-weight: 400;
+  font-size: 17px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+  opacity: 10;
+  line-height: 20.57px;
+  font-family: sans-serif;
+}
+
+.table {
+  position: absolute;
+  bottom: -80px;
+  color: white;
+  display: flex;
+}
+
+.border {
+  border: 1px solid #FFFFFF;
+  width: 98%;
+  position: absolute;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+  opacity: 10;
+}
+
+.border-mini {
+  border: 1px solid #FFFFFF;
+  height: 90px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+  opacity: 10;
+}
+
+.button {
+  width: 80px;
+  height: 40px;
+  background: #6B6B6B33;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  appearance: none;
+}
+
+.button option {
+  background: #333;
+  color: white;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+
+
+.card {
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 17px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+  opacity: 10;
+}
+
+.menu {
+  width: 35px;
+  height: 37px;
+  background: #6B6B6B33;
+  border-radius: 8px;
+  display: none;
+
+}
+.logo{
+  /* border: 2px solid black; */
+  width: 248px;
+  height: 30px;
+}
+@media only screen and (max-width: 800px) {}

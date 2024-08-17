@@ -1,20 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site Under Construction</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="construction-container">
-      <h1>Welcome to megaton.uz</h1>
-      <h2>We're Under Construction</h2>
-      <p>
-        Our website is currently undergoing scheduled maintenance. Thank you for
-        your understanding.
-      </p>
-      <div class="loader"></div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Megaton</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Source+Code+Pro:wght@200..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <img class="home" src="./assets/Home.png" alt="">
+    <nav class="nav">
+      <div class="navbar">
+        <img class="logo" src="./assets/logo.png" alt="">
+        <ul>
+          <li><a href="#" class="katalog">Каталог</a></li>
+          <li><a href="#">Прайс-лист</a></li>
+          <li><a href="#">Покупка</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Контакты</a></li>
+          <select class="button" id="language-select">
+            <option value="UZB">UZB</option>
+            <option value="ENG">ENG</option>
+            <option value="RUS">RUS</option>
+          </select>
+          <img class="menu" src="./assets/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+
+
+        </ul>
+      </div>
+    </nav>
+    <div class="bottom">
+      <div class="main">
+        <ul id="main-list">
+          <li><a href="#">Газоблоки</a></li>
+          <li><a href="#">Пеноблок</a></li>
+          <li><a href="#">НОВОБЛОК</a></li>
+          <li><a href="#">ТЕПЛОН</a></li>
+        </ul>
+        <h2 class="text" id="quality-text">Немецкое качество</h2>
+        <h1 class="two-text" id="block-text">Газоблоки</h1>
+        <p class="bottom-p" id="description">группа компаний, основной деятельностью которой является производство
+          стеновых материалов из ячеистого бетона автоклавного твердения (популярное название - газоблок)</p>
+      </div>
+      <div class="table" id="card-container">
+        <div class="border"></div>
+        <div class="card">
+          <p>надежный и прочный дом</p>
+        </div>
+        <div class="border-mini"></div>
+        <div class="card">
+          <p>экономичное и качественное строительство</p>
+        </div>
+        <div class="border-mini"></div>
+        <div class="card">
+          <p>комфортную температуру в доме круглый год</p>
+        </div>
+        <div class="border-mini"></div>
+        <div class="card">
+          <p>быстро и качественно возводить стройку, сокращая затраты и увеличивая доход</p>
+        </div>
+        <div class="border-mini"></div>
+        <div class="card">
+          <p>своевременную поставку материалов</p>
+        </div>
+      </div>
     </div>
-  </body>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
 </html>
