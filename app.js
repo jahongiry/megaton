@@ -35,3 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
   updateLanguage();
 });
 
+// const images = [
+//   './assets/Home.png',
+//   './assets/Main-home.jpg' 
+// ];
+
+// let currentIndex = 0;
+// const homeImage = document.querySelector('.home');
+
+// function changeBackground() {
+//   homeImage.style.opacity = 0; // O'chirish
+//   setTimeout(() => {
+//     currentIndex = (currentIndex + 1) % images.length;
+//     homeImage.src = images[currentIndex];
+//     homeImage.style.opacity = 1; // Yoqish
+//   }, 100); // 1 soniyalik kechikish
+// }
+
+// setInterval(changeBackground, 3000); 
