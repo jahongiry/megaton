@@ -600,6 +600,10 @@ body {
   .logo {
     width: 150px;
   }
+  .navbar ul select {
+    width: 70px;
+    height: 35px;
+  }
   .navbar ul {
     display: flex;
     position: absolute;
@@ -620,19 +624,33 @@ body {
   }
 
   .card p {
-    font-size: 11px;
+    font-size: 9px;
+    margin-left: -10px;
   }
 
   .bottom-p {
     font-size: 13px;
+    width: 388px;
+    margin-top: -30px;
+  }
+  .text-bottom{
+    position: absolute;
+    left: 0;
+    padding: 6px;
   }
 
   .main ul li a {
     font-size: 16px;
   }
-
+  .text-bottom h2,
   .text-bottom h1 {
-    font-size: 52px;
+    font-size: 42px;
+  }
+  .main ul li a{
+    font-size: 13px;
+  }
+  .main ul{
+    margin-left: -20px;
   }
 }
 
