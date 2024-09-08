@@ -288,13 +288,15 @@ body {
   .container {
     width: 800px;
   }
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -338,13 +340,15 @@ body {
     width: 750px;
     overflow: hidden;
   }
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -371,13 +375,15 @@ body {
   .container {
     width: 700px;
   }
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -398,13 +404,15 @@ body {
   .container {
     width: 650px;
   }
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -425,13 +433,15 @@ body {
   .container {
     width: 600px;
   }
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -471,7 +481,8 @@ body {
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -499,6 +510,7 @@ body {
     font-size: 52px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .container {
     width: 500px;
@@ -510,7 +522,8 @@ body {
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -538,6 +551,7 @@ body {
     font-size: 52px;
   }
 }
+
 @media only screen and (max-width: 450px) {
   .container {
     width: 450px;
@@ -549,7 +563,8 @@ body {
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -577,6 +592,7 @@ body {
     font-size: 52px;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .container {
     width: 400px;
@@ -588,7 +604,8 @@ body {
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -622,13 +639,23 @@ body {
     width: 350px;
   }
 
+  .logo {
+    width: 150px;
+  }
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar ul select {
+    width: 70px;
+    height: 35px;
+  }
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -640,21 +667,15 @@ body {
 
   }
 
-  .card p {
-    font-size: 11px;
+  .text-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
   }
 
-  .bottom-p {
-    font-size: 13px;
-  }
 
-  .main ul li a {
-    font-size: 16px;
-  }
-
-  .text-bottom h1 {
-    font-size: 52px;
-  }
 }
 
 @media only screen and (max-width: 300px) {
@@ -662,13 +683,15 @@ body {
     width: 300px;
   }
 
+
   .navbar ul {
     display: flex;
     position: absolute;
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
@@ -696,6 +719,7 @@ body {
     font-size: 52px;
   }
 }
+
 @media only screen and (max-width: 250px) {
   .container {
     width: 250px;
@@ -707,7 +731,8 @@ body {
     right: 0;
     padding: 10px;
   }
-  .navbar{
+
+  .navbar {
     display: flex;
     align-items: center;
   }
