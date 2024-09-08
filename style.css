@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +10,12 @@ body {
   height: 150vh;
 }
 
-.container .home{
+.container .home {
   width: 100%;
   height: 100vh;
   position: relative;
 }
+
 .container {
   width: 100%;
   height: 100vh;
@@ -25,9 +25,12 @@ body {
 .home {
   width: 100%;
   height: 100%;
-  background-size: cover; /* Rasmni konteynerga to'liq joylash */
-  background-position: center; /* Rasmning markaziy qismini ko'rsatish */
-  background-repeat: no-repeat; /* Rasm takrorlanmasligi uchun */
+  background-size: cover;
+  /* Rasmni konteynerga to'liq joylash */
+  background-position: center;
+  /* Rasmning markaziy qismini ko'rsatish */
+  background-repeat: no-repeat;
+  /* Rasm takrorlanmasligi uchun */
 }
 
 
@@ -267,8 +270,9 @@ body {
   /* border: 2px solid black; */
   width: 248px;
   height: 30px;
-  
+
 }
+
 .home {
   width: 100%;
   height: auto;
@@ -279,43 +283,94 @@ body {
   z-index: -1;
   transition: opacity 2s ease-in-out;
 }
+
 @media only screen and (max-width: 800px) {
- 
-  .home{
+  .container {
     width: 800px;
   }
-  
-  .navbar ul li{
+
+  .navbar ul li {
     display: none;
   }
-  .menu{
+
+  .menu {
     display: block;
   }
-  .main h1{
+
+  .main h1 {
     font-size: 70px;
   }
-.bottom-p{
-  width: 700px;
-}
-.table{
-  margin-left: -48px;
-}
-.main{
-  margin-left: -43px;
-  line-height:30px;
-}
+
+  .bottom-p {
+    width: 700px;
+  }
+
+  .table {
+    margin-left: -48px;
+  }
+
+  .main {
+    margin-left: -43px;
+    line-height: 30px;
+  }
 
 }
+
 @media only screen and (max-width: 750px) {
-  .text-bottom{
+  .container {
+    width: 750px;
+    overflow: hidden;
+  }
+
+  .text-bottom {
     margin-top: 10px;
     line-height: 22px;
 
   }
+
+  .card p {
+    font-size: 14px;
+  }
 }
-@media only screen and (max-width: 700px){
-    
-  .text-bottom{
-    line-height: 10px;
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 700px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 650px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 600px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .bottom-p {
+    font-size: 15px;
+  }
+
+  .main ul li a {
+    font-size: 18px;
+  }
+
+  .text-bottom h1{
+    font-size: 53px;
   }
 }
