@@ -288,6 +288,23 @@ body {
   .container {
     width: 800px;
   }
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
 
   .navbar ul li {
     display: none;
@@ -321,6 +338,23 @@ body {
     width: 750px;
     overflow: hidden;
   }
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
 
   .text-bottom {
     margin-top: 10px;
@@ -337,6 +371,23 @@ body {
   .container {
     width: 700px;
   }
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
 
   .card p {
     font-size: 13px;
@@ -347,6 +398,23 @@ body {
   .container {
     width: 650px;
   }
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
 
   .card p {
     font-size: 13px;
@@ -356,6 +424,23 @@ body {
 @media only screen and (max-width: 600px) {
   .container {
     width: 600px;
+  }
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
   }
 
   .card p {
@@ -370,7 +455,47 @@ body {
     font-size: 18px;
   }
 
-  .text-bottom h1{
+  .text-bottom h1 {
     font-size: 53px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    width: 550px;
+  }
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h1 {
+    font-size: 52px;
   }
 }
