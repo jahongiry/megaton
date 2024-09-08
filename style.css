@@ -597,7 +597,9 @@ body {
   .container {
     width: 400px;
   }
-
+  .logo {
+    width: 150px;
+  }
   .navbar ul {
     display: flex;
     position: absolute;
