@@ -283,7 +283,8 @@ body {
   z-index: -1;
   transition: opacity 2s ease-in-out;
 }
-footer{
+
+footer {
   border: 2px solid black;
   height: 50vh;
   display: flex;
@@ -293,7 +294,8 @@ footer{
   font-family: sans-serif;
   background: black;
 }
-footer p{
+
+footer p {
   border: 2px solid black;
   width: 900px;
   text-align: center;
@@ -302,11 +304,14 @@ footer p{
   margin-top: 20px;
   color: #FFFFFF;
 }
-footer h1{
+
+footer h1 {
   font-size: 55px;
   color: #FD9200;
 }
-
+:root {
+  --main-color: #FD9200;
+}
 .icoun a {
   display: inline-flex;
   justify-content: center;
@@ -314,22 +319,22 @@ footer h1{
   width: 4.5rem;
   height: 4.5rem;
   background: transparent;
-  border: 2px solid var(--main-color);
   font-size: 2.5rem;
   border-radius: 50%;
   color: var(--main-color);
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.3s ease-in-out;
-  border: 2px solid black;
   background: white;
-
+  transition: 1s;
 }
+
 .icoun a:hover {
-  color: #FD9200;
   transform: scale(1.3) translateY(-5px);
   box-shadow: 0 0 25px var(--main-color);
 }
 
+.icoun a:hover {
+}
 
 @media only screen and (max-width: 800px) {
   .container {
@@ -644,13 +649,16 @@ footer h1{
   .container {
     width: 400px;
   }
+
   .logo {
     width: 150px;
   }
+
   .navbar ul select {
     width: 70px;
     height: 35px;
   }
+
   .navbar ul {
     display: flex;
     position: absolute;
@@ -680,7 +688,8 @@ footer h1{
     width: 388px;
     margin-top: -30px;
   }
-  .text-bottom{
+
+  .text-bottom {
     position: absolute;
     left: 0;
     padding: 6px;
@@ -689,14 +698,17 @@ footer h1{
   .main ul li a {
     font-size: 16px;
   }
+
   .text-bottom h2,
   .text-bottom h1 {
     font-size: 42px;
   }
-  .main ul li a{
+
+  .main ul li a {
     font-size: 13px;
   }
-  .main ul{
+
+  .main ul {
     margin-left: -20px;
   }
 }
