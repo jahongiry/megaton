@@ -461,141 +461,114 @@ footer {
     font-size: 53px;
   }
 }
-
-@media only screen and (max-width: 550px) {
+/* Planshetlar va telefonlar uchun umumiy media so‘zlamalar */
+@media only screen and (max-width: 1024px) {
   .container {
-    width: 550px;
+    width: 90%; /* Planshetlarda va telefonlarda konteyner kengligi */
+    max-width: 800px; /* Maksimal kenglik */
   }
-
-  .card p {
-    font-size: 11px;
+  footer {
+    min-height: 400px; /* Footerning minimal balandligi */
   }
-
-  .bottom-p {
-    font-size: 13px;
+  footer p {
+    min-width: 500px; /* Footer p elementining minimal kengligi */
   }
-
-  .main ul li a {
-    font-size: 16px;
-  }
-
-  .text-bottom h1 {
-    font-size: 52px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .container {
-    width: 500px;
-  }
-
-  .card p {
-    font-size: 11px;
-  }
-
-  .bottom-p {
-    font-size: 13px;
-  }
-
-  .main ul li a {
-    font-size: 16px;
-  }
-
-  .text-bottom h1 {
-    font-size: 52px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .container {
-    width: 450px;
-  }
-
-  .logo {
-    width: 150px;
-  }
-
-  .navbar ul select {
-    width: 70px;
-    height: 35px;
-  }
-
-  .card p {
-    font-size: 9px;
-  }
-
-  .bottom-p {
-    font-size: 13px;
-    width: 388px;
-    margin-top: -30px;
-  }
-
-  .text-bottom {
-    position: absolute;
-    left: 0;
-    padding: 6px;
-  }
-
-  .text-bottom h2,
-  .text-bottom h1 {
-    font-size: 42px;
-  }
-
-  .main ul li a {
-    font-size: 13px;
-  }
-
-  .main ul {
-    margin-left: -20px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .container {
-    width: 350px;
-  }
-
-  .text-bottom {
+  .navbar {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
+    align-items: center;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column; /* Menyu elementlarini vertikal joylashtirish */
+    padding: 10px;
+  }
+  .navbar img {
+    position: static;
+    margin-left: 0;
+  }
+  .menu {
+    display: block;
+  }
+  .main h1 {
+    font-size: 50px; /* H1 hajmi */
+  }
+  .bottom-p {
+    width: 100%; /* Butun ekran kengligi */
+    max-width: 600px; /* Maksimal kenglik */
+  }
+  .card p {
+    font-size: 13px; /* Kartochka matn hajmi */
   }
 }
 
-@media only screen and (max-width: 300px) {
+/* Kichik planshetlar va telefonlar uchun */
+@media only screen and (max-width: 768px) {
   .container {
-    width: 300px;
+    width: 90%; /* Telefonlarda konteyner kengligi */
+    max-width: 600px; /* Maksimal kenglik */
   }
-
-  .card p {
-    font-size: 9px;
+  footer {
+    min-height: 300px; /* Footerning minimal balandligi */
   }
-
+  footer p {
+    min-width: 400px; /* Footer p elementining minimal kengligi */
+  }
+  .main h1 {
+    font-size: 40px; /* H1 hajmi */
+  }
   .bottom-p {
-    font-size: 12px;
+    width: 100%; /* Butun ekran kengligi */
+    max-width: 500px; /* Maksimal kenglik */
   }
-
-  .text-bottom h1 {
-    font-size: 50px;
+  .card p {
+    font-size: 12px; /* Kartochka matn hajmi */
   }
 }
 
-@media only screen and (max-width: 250px) {
+/* Juda kichik telefonlar uchun */
+@media only screen and (max-width: 576px) {
   .container {
-    width: 250px;
+    width: 90%; /* Kichik telefonlarda konteyner kengligi */
+    max-width: 400px; /* Maksimal kenglik */
   }
-
-  .card p {
-    font-size: 8px;
+  footer {
+    min-height: 250px; /* Footerning minimal balandligi */
   }
-
+  footer p {
+    min-width: 300px; /* Footer p elementining minimal kengligi */
+  }
+  .main h1 {
+    font-size: 30px; /* H1 hajmi */
+  }
   .bottom-p {
-    font-size: 11px;
+    width: 100%; /* Butun ekran kengligi */
+    max-width: 400px; /* Maksimal kenglik */
   }
+  .card p {
+    font-size: 11px; /* Kartochka matn hajmi */
+  }
+}
 
-  .text-bottom h1 {
-    font-size: 48px;
+/* Juda kichik telefonlar uchun */
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 90%; /* Juda kichik telefonlarda konteyner kengligi */
+    max-width: 350px; /* Maksimal kenglik */
+  }
+  footer {
+    min-height: 200px; /* Footerning minimal balandligi */
+  }
+  footer p {
+    min-width: 250px; /* Footer p elementining minimal kengligi */
+  }
+  .main h1 {
+    font-size: 24px; /* H1 hajmi */
+  }
+  .bottom-p {
+    width: 100%; /* Butun ekran kengligi */
+    max-width: 300px; /* Maksimal kenglik */
+  }
+  .card p {
+    font-size: 9px; /* Kartochka matn hajmi */
   }
 }
