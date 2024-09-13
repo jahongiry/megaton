@@ -303,8 +303,8 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   background: transparent;
   font-size: 2.5rem;
   border-radius: 50%;
@@ -363,7 +363,7 @@ footer {
   bottom: -2px;
   width: 0;
   height: 3px;
-  background-color: var(--main-color);
+  background-color: white;
   transition: width 0.3s ease;
 }
 
@@ -373,15 +373,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
   .container {
-    min-width: 800px;
-  }
-
-  footer {
-    min-height: 500px;
-  }
-
-  footer p {
-    min-width: 600px;
+   min-width: 800px;
   }
 
   .navbar ul {
@@ -400,6 +392,11 @@ footer {
     position: absolute;
     left: 0;
     margin-left: 20px;
+
+  }
+
+  .navbar ul li {
+    display: none;
   }
 
   .menu {
@@ -422,9 +419,42 @@ footer {
     margin-left: -43px;
     line-height: 30px;
   }
+  footer{
+    min-height: 500px;
+    min-width: 800px;
+  }
+  footer p{
+    min-width:600px;
+  }
+  footer h1{
+    margin-top: 60px;
+  }
+
 }
 
+
+
 @media only screen and (max-width: 700px) {
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
   .card p {
     font-size: 13px;
   }
@@ -435,6 +465,25 @@ footer {
     width: 650px;
   }
 
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
   .card p {
     font-size: 13px;
   }
@@ -443,6 +492,25 @@ footer {
 @media only screen and (max-width: 600px) {
   .container {
     width: 600px;
+  }
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
   }
 
   .card p {
@@ -461,114 +529,321 @@ footer {
     font-size: 53px;
   }
 }
-/* Planshetlar va telefonlar uchun umumiy media so‘zlamalar */
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 550px) {
   .container {
-    width: 90%; /* Planshetlarda va telefonlarda konteyner kengligi */
-    max-width: 800px; /* Maksimal kenglik */
+    width: 550px;
   }
-  footer {
-    min-height: 400px; /* Footerning minimal balandligi */
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
   }
-  footer p {
-    min-width: 500px; /* Footer p elementining minimal kengligi */
-  }
+
   .navbar {
     display: flex;
     align-items: center;
   }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h1 {
+    font-size: 52px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+
   .navbar ul {
     display: flex;
-    flex-direction: column; /* Menyu elementlarini vertikal joylashtirish */
+    position: absolute;
+    right: 0;
     padding: 10px;
   }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
   .navbar img {
-    position: static;
-    margin-left: 0;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
   }
-  .menu {
-    display: block;
-  }
-  .main h1 {
-    font-size: 50px; /* H1 hajmi */
-  }
-  .bottom-p {
-    width: 100%; /* Butun ekran kengligi */
-    max-width: 600px; /* Maksimal kenglik */
-  }
+
   .card p {
-    font-size: 13px; /* Kartochka matn hajmi */
+    font-size: 11px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h1 {
+    font-size: 52px;
   }
 }
 
-/* Kichik planshetlar va telefonlar uchun */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .container {
-    width: 90%; /* Telefonlarda konteyner kengligi */
-    max-width: 600px; /* Maksimal kenglik */
+    width: 450px;
   }
-  footer {
-    min-height: 300px; /* Footerning minimal balandligi */
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
   }
-  footer p {
-    min-width: 400px; /* Footer p elementining minimal kengligi */
+
+  .navbar {
+    display: flex;
+    align-items: center;
   }
-  .main h1 {
-    font-size: 40px; /* H1 hajmi */
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
   }
-  .bottom-p {
-    width: 100%; /* Butun ekran kengligi */
-    max-width: 500px; /* Maksimal kenglik */
-  }
+
   .card p {
-    font-size: 12px; /* Kartochka matn hajmi */
+    font-size: 11px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h1 {
+    font-size: 52px;
   }
 }
 
-/* Juda kichik telefonlar uchun */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 400px) {
   .container {
-    width: 90%; /* Kichik telefonlarda konteyner kengligi */
-    max-width: 400px; /* Maksimal kenglik */
+    width: 400px;
   }
-  footer {
-    min-height: 250px; /* Footerning minimal balandligi */
+
+  .logo {
+    width: 150px;
   }
-  footer p {
-    min-width: 300px; /* Footer p elementining minimal kengligi */
+
+  .navbar ul select {
+    width: 70px;
+    height: 35px;
   }
-  .main h1 {
-    font-size: 30px; /* H1 hajmi */
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
   }
-  .bottom-p {
-    width: 100%; /* Butun ekran kengligi */
-    max-width: 400px; /* Maksimal kenglik */
+
+  .navbar {
+    display: flex;
+    align-items: center;
   }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
   .card p {
-    font-size: 11px; /* Kartochka matn hajmi */
+    font-size: 9px;
+    margin-left: -10px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+    width: 388px;
+    margin-top: -30px;
+  }
+
+  .text-bottom {
+    position: absolute;
+    left: 0;
+    padding: 6px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h2,
+  .text-bottom h1 {
+    font-size: 42px;
+  }
+
+  .main ul li a {
+    font-size: 13px;
+  }
+
+  .main ul {
+    margin-left: -20px;
   }
 }
 
-/* Juda kichik telefonlar uchun */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 350px) {
   .container {
-    width: 90%; /* Juda kichik telefonlarda konteyner kengligi */
-    max-width: 350px; /* Maksimal kenglik */
+    width: 350px;
   }
-  footer {
-    min-height: 200px; /* Footerning minimal balandligi */
+
+  .logo {
+    width: 150px;
   }
-  footer p {
-    min-width: 250px; /* Footer p elementining minimal kengligi */
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
   }
-  .main h1 {
-    font-size: 24px; /* H1 hajmi */
+
+  .navbar ul select {
+    width: 70px;
+    height: 35px;
   }
-  .bottom-p {
-    width: 100%; /* Butun ekran kengligi */
-    max-width: 300px; /* Maksimal kenglik */
+
+  .navbar {
+    display: flex;
+    align-items: center;
   }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
+  .text-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+  }
+
+
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+    width: 300px;
+  }
+
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
   .card p {
-    font-size: 9px; /* Kartochka matn hajmi */
+    font-size: 11px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h1 {
+    font-size: 52px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .container {
+    width: 250px;
+  }
+
+  .navbar ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar img {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .bottom-p {
+    font-size: 13px;
+  }
+
+  .main ul li a {
+    font-size: 16px;
+  }
+
+  .text-bottom h1 {
+    font-size: 52px;
   }
 }
