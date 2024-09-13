@@ -293,31 +293,7 @@ body {
   transition: opacity 2s ease-in-out;
 }
 
-footer {
-  border: 2px solid black;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  background: black;
-}
 
-footer p {
-  border: 2px solid black;
-  width: 900px;
-  text-align: center;
-  line-height: 25px;
-  font-weight: 700;
-  margin-top: 20px;
-  color: #FFFFFF;
-}
-
-footer h1 {
-  font-size: 55px;
-  color: #FD9200;
-}
 
 :root {
   --main-color: #FD9200;
@@ -327,8 +303,8 @@ footer h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background: transparent;
   font-size: 2.5rem;
   border-radius: 50%;
@@ -338,19 +314,74 @@ footer h1 {
   background: white;
   transition: 1s;
 }
-
 .icoun a:hover {
   transform: scale(1.3) translateY(-5px);
   box-shadow: 0 0 25px var(--main-color);
   color: white;
   background: var(--main-color);
 }
+footer {
+  border: 2px solid black;
+  height: 30vh;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 60px;
+  justify-content: center;
+}
+.container-card h2{
+  text-align: center;
+  color: var(--main-color);
+  cursor: pointer;
+}
 
-.icoun a:hover {}
+.card-footer p{
+  width: 200px;
+  margin-top: 40px;
+}
+
+.border-footer {
+  border: 1px solid var(--main-color);
+  height: 170px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+  opacity: 10;
+}
+.card-footer h2 {
+  position: relative;
+  display: inline-block;
+}
+
+.card-footer h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 3px;
+  background-color: var(--main-color);
+  transition: width 0.3s ease;
+}
+
+.card-footer h2:hover::after {
+  width: 100%;
+}
 
 @media only screen and (max-width: 800px) {
   .container {
-   min-width: 800px;
+    min-width: 800px;
+  }
+
+  footer {
+    min-height: 500px;
+  }
+
+  footer p {
+    min-width: 600px;
   }
 
   .navbar ul {
@@ -369,11 +400,6 @@ footer h1 {
     position: absolute;
     left: 0;
     margin-left: 20px;
-
-  }
-
-  .navbar ul li {
-    display: none;
   }
 
   .menu {
@@ -396,42 +422,9 @@ footer h1 {
     margin-left: -43px;
     line-height: 30px;
   }
-  footer{
-    min-height: 500px;
-    min-width: 800px;
-  }
-  footer p{
-    width: 600px;
-  }
-  footer h1{
-    margin-top: 60px;
-  }
-
 }
 
-
-
 @media only screen and (max-width: 700px) {
-
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .card p {
     font-size: 13px;
   }
@@ -442,25 +435,6 @@ footer h1 {
     width: 650px;
   }
 
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .card p {
     font-size: 13px;
   }
@@ -469,25 +443,6 @@ footer h1 {
 @media only screen and (max-width: 600px) {
   .container {
     width: 600px;
-  }
-
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
   }
 
   .card p {
@@ -512,25 +467,6 @@ footer h1 {
     width: 550px;
   }
 
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .card p {
     font-size: 11px;
   }
@@ -551,25 +487,6 @@ footer h1 {
 @media only screen and (max-width: 500px) {
   .container {
     width: 500px;
-  }
-
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
   }
 
   .card p {
@@ -594,47 +511,6 @@ footer h1 {
     width: 450px;
   }
 
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
-  .card p {
-    font-size: 11px;
-  }
-
-  .bottom-p {
-    font-size: 13px;
-  }
-
-  .main ul li a {
-    font-size: 16px;
-  }
-
-  .text-bottom h1 {
-    font-size: 52px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .container {
-    width: 400px;
-  }
-
   .logo {
     width: 150px;
   }
@@ -644,28 +520,8 @@ footer h1 {
     height: 35px;
   }
 
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .card p {
     font-size: 9px;
-    margin-left: -10px;
   }
 
   .bottom-p {
@@ -678,10 +534,6 @@ footer h1 {
     position: absolute;
     left: 0;
     padding: 6px;
-  }
-
-  .main ul li a {
-    font-size: 16px;
   }
 
   .text-bottom h2,
@@ -703,34 +555,6 @@ footer h1 {
     width: 350px;
   }
 
-  .logo {
-    width: 150px;
-  }
-
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar ul select {
-    width: 70px;
-    height: 35px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .text-bottom {
     display: flex;
     flex-wrap: wrap;
@@ -738,8 +562,6 @@ footer h1 {
     position: absolute;
     left: 0;
   }
-
-
 }
 
 @media only screen and (max-width: 300px) {
@@ -747,40 +569,16 @@ footer h1 {
     width: 300px;
   }
 
-
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .card p {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .bottom-p {
-    font-size: 13px;
-  }
-
-  .main ul li a {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .text-bottom h1 {
-    font-size: 52px;
+    font-size: 50px;
   }
 }
 
@@ -789,38 +587,15 @@ footer h1 {
     width: 250px;
   }
 
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
   .card p {
-    font-size: 11px;
+    font-size: 8px;
   }
 
   .bottom-p {
-    font-size: 13px;
-  }
-
-  .main ul li a {
-    font-size: 16px;
+    font-size: 11px;
   }
 
   .text-bottom h1 {
-    font-size: 52px;
+    font-size: 48px;
   }
 }
