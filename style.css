@@ -419,15 +419,9 @@ footer {
     margin-left: -43px;
     line-height: 30px;
   }
-  footer{
-    min-height: 500px;
-    min-width: 800px;
-  }
-  footer p{
-    min-width:600px;
-  }
-  footer h1{
-    margin-top: 60px;
+  .footer{
+    background: #000;
+    min-height: auto;
   }
 
 }
