@@ -322,7 +322,7 @@ body {
 }
 footer {
   border: 2px solid black;
-  height: 30vh;
+  height: 35vh;
   font-family: sans-serif;
   background: black;
   color: white;
@@ -341,8 +341,9 @@ footer {
 }
 
 .card-footer p{
-  width: 200px;
-  margin-top: 40px;
+  width: 250px;
+  margin-top:13px;
+  line-height: 20px;
 }
 
 .border-footer {
@@ -370,7 +371,24 @@ footer {
 .card-footer h2:hover::after {
   width: 100%;
 }
-
+.manzil{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.card-footer span{
+  color: var(--main-color);
+  font-weight: 700;
+}
+.card-footer p{
+  display: flex;
+  margin-left: -40px; 
+}
+.card-footer a:nth-child(2){
+  margin-left: 10px;
+  text-decoration:underline;
+  font-weight: 700;
+}
 @media only screen and (max-width: 1200px) {
   .container {
    min-width: 800px;
@@ -423,10 +441,29 @@ footer {
     background: #000;
     min-height: auto;
   }
+  .card-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+  .icoun a{
+    width: 60px;
+    height: 60px;
+}
+.icoun{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: -40px;
+
+}
+.text{
+  width: 100%;
+  font-size: 35px;
 
 }
 
-
+}
 @media only screen and (max-width: 700px) {
   .container {
     max-width: 700px;
@@ -453,6 +490,26 @@ footer {
   .card p {
     font-size: 13px;
   }
+  .text{
+    width: 100%;
+    font-size: 35px;
+  }
+  .card-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+  .icoun a{
+    width: 60px;
+    height: 60px;
+}
+.icoun{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: -40px;
+
+}
 }
 
 @media only screen and (max-width: 350px) {
@@ -495,6 +552,23 @@ footer {
     position: absolute;
     left: 0;
   }
+  .card-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+  .icoun a{
+    width: 60px;
+    height: 60px;
+}
+.icoun{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: -40px;
 
-
+}
+.text{
+  font-size: 40px;
+}
 }
