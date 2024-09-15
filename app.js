@@ -53,3 +53,10 @@ document.addEventListener('DOMContentLoaded', () => {
 // }
 
 // setInterval(changeBackground, 3000); 
+const navbar = document.getElementById('navbarUl');
+const menu = document.getElementById('menu');
+
+// Tugmachaga hodisani qo'shamiz
+menu.addEventListener('click', function() {
+ navbar.style.display='block'
+});

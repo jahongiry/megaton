@@ -10,12 +10,21 @@
     "description": "Gazoblock ishlab chiqaruvchi kompaniya guruhi, autoklavdagi betondan yasalgan devor materiallari ishlab chiqarish bilan shug'ullanadi (ommalashgan nom - gazoblock).",
     "mainList": ["Gazobloklar", "Penoblock", "Novoblock", "Teplon"],
     "cards": [
-      "Ishonchli va mustahkam uy",
-      "Tejamkor va sifatli qurilish",
-      "Yil davomida qulay harorat",
-      "Tez va sifatli qurilish, xarajatlarni qisqartirish va daromadni oshirish",
-      "Vaqtida materiallar etkazib berish"
-    ]
+      "Uy ichidagi Barqaror harorat",
+      "Qurilishdagi tezlik Va albatta yuqori sifat.",
+      "Zilzilaga bardoshlilik",
+      "Ovoz utkazuvchanlik pastligi",
+      "Har bir klientga Qurilishdagi inovatsiyon taklif"
+    ],
+    "footerCompany": "Kompaniya",
+    "footerAboutUs": "Biz haqimizda",
+    "footerAddress": "Manzil",
+    "footerFollowUs": "Bizga qo'shiling",
+    "address": {
+      "street": "Madaniyat ko'chasi 71, Chust shahar, Namangan, O'zbekiston",
+      "phone": "+99894 778 7770",
+      "email": "megaton.uzb@gmail.com"
+    }
   },
   "ENG": {
     "catalog": "Catalog",
@@ -23,17 +32,26 @@
     "purchase": "Purchase",
     "services": "Services",
     "contacts": "Contacts",
-    "qualityText": "German Quality",
+    "qualityText": "World Standard and Quality",
     "blockText": "Gas Blocks",
-    "description": "A group of companies whose main activity is the production of wall materials from autoclaved aerated concrete (commonly known as gas blocks).",
+    "description": "A group of companies producing wall materials from autoclaved concrete (commonly known as gas blocks).",
     "mainList": ["Gas Blocks", "Foam Blocks", "Novoblock", "Teplon"],
     "cards": [
-      "Reliable and durable house",
-      "Economical and high-quality construction",
-      "Comfortable temperature in the house year-round",
-      "Build quickly and efficiently, reducing costs and increasing income",
-      "Timely delivery of materials"
-    ]
+      "Stable indoor temperature",
+      "Fast construction and guaranteed quality.",
+      "Earthquake resistance",
+      "Low sound permeability",
+      "Innovative construction offers for each client"
+    ],
+    "footerCompany": "Company",
+    "footerAboutUs": "About Us",
+    "footerAddress": "Address",
+    "footerFollowUs": "Follow Us",
+    "address": {
+      "street": "Madaniyat street 71, Chust city, Namangan, Uzbekistan",
+      "phone": "+99894 778 7770",
+      "email": "megaton.uzb@gmail.com"
+    }
   },
   "RUS": {
     "catalog": "Каталог",
@@ -41,16 +59,25 @@
     "purchase": "Покупка",
     "services": "Услуги",
     "contacts": "Контакты",
-    "qualityText": "Немецкое качество",
+    "qualityText": "Мировой стандарт и качество",
     "blockText": "Газоблоки",
-    "description": "Группа компаний, основной деятельностью которой является производство стеновых материалов из ячеистого бетона автоклавного твердения (популярное название - газоблок).",
-    "mainList": ["Газоблоки", "Пеноблок", "НОВОБЛОК", "ТЕПЛОН"],
+    "description": "Группа компаний, занимающаяся производством стеновых материалов из автоклавного бетона (также известные как газоблоки).",
+    "mainList": ["Газоблоки", "Пеноблок", "Новоблок", "Теплон"],
     "cards": [
-      "Надежный и прочный дом",
-      "Экономичное и качественное строительство",
-      "Комфортную температуру в доме круглый год",
-      "Быстро и качественно возводить стройку, сокращая затраты и увеличивая доход",
-      "Своевременную поставку материалов"
-    ]
+      "Стабильная температура внутри дома",
+      "Быстрое строительство и гарантированное качество.",
+      "Сейсмостойкость",
+      "Низкая звукопроницаемость",
+      "Инновационные предложения по строительству для каждого клиента"
+    ],
+    "footerCompany": "Компания",
+    "footerAboutUs": "О нас",
+    "footerAddress": "Адрес",
+    "footerFollowUs": "Подписывайтесь на нас",
+    "address": {
+      "street": "Улица Маданият 71, город Чуст, Наманган, Узбекистан",
+      "phone": "+99894 778 7770",
+      "email": "megaton.uzb@gmail.com"
+    }
   }
 }

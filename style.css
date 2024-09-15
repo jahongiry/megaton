@@ -303,8 +303,8 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background: transparent;
   font-size: 2.5rem;
   border-radius: 50%;
@@ -341,7 +341,7 @@ footer {
 }
 
 .card-footer p{
-  width: 250px;
+  width: 246px;
   margin-top:13px;
   line-height: 20px;
 }
@@ -417,9 +417,7 @@ footer {
     display: none;
   }
 
-  .menu {
-    display: block;
-  }
+  
 
   .main h1 {
     font-size: 70px;
