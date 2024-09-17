@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Megaton</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <img class="home" src="./assets/megaton2.jpg" alt="">
     <div class="navbar">
+      <a href="./index.html">
         <img class="logo" src="./assets/logo.png" alt="">
+      </a>
       <ul>
         <svg class="menu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
           fill="#e8eaed">
           <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
         </svg>
-        <li><a href="./narxlar.html" class="katalog">Каталог</a></li>
-        <li><a href="./sotib.html">Прайс-лист</a></li>
-        <li><a href="./aloqa.html">Покупка</a></li>
-        <li><a href="./xizmatlar.html">Услуги</a></li>
-        <li><a href="./kontakt.html">Контакты</a></li>
+        <li><a href="./narxlar.html" id="catalog">Каталог</a></li>
+        <li><a href="./sotib.html" id="price_list">Прайс-лист</a></li>
+        <li><a href="./aloqa.html" id="purchase">Покупка</a></li>
+        <li><a href="./xizmatlar.html" id="services">Услуги</a></li>
+        <li><a href="./kontakt.html" id="contacts">Контакты</a></li>
         <select class="button" id="language-select">
           <option value="UZB">UZB</option>
           <option value="ENG">ENG</option>
@@ -29,5 +33,9 @@
 
       </ul>
     </div>
+    <h1 class="h1Full">ALOQALAR USTIDA XOZIRDA ISHLANMOQDA</h1>
+
+    <script src="./app.js"></script>
 </body>
+
 </html>

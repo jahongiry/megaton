@@ -201,10 +201,11 @@ body {
 
 .border {
   border: 1px solid #FFFFFF;
-  width: 106%;
   position: absolute;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
   opacity: 10;
+  width: 106%;
+  margin-left: 4px;
 }
 
 .border-mini {
@@ -394,12 +395,28 @@ footer {
 .text-page{
   border: 2px solid red;
 }
-
+.h1Full{
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 470px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  padding: 5px 13px;
+  background: #6B6B6B33;
+  border-radius: 8px;
+  color: white;
+}
 @media only screen and (max-width: 1200px) {
   .container {
     min-width: 800px;
   }
+.border{
+  display: none;
 
+}
   .navbar ul {
     display: flex;
     position: absolute;
@@ -489,6 +506,10 @@ footer {
   .container {
     max-width: 700px;
   }
+  .border{
+    display: none;
+  
+  }
 
   .navbar ul {
     display: flex;
@@ -553,6 +574,10 @@ footer {
 
   .logo {
     width: 150px;
+  }
+  .border{
+    display: none;
+  
   }
 
   .navbar ul {
