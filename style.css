@@ -204,8 +204,7 @@ body {
   position: absolute;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
   opacity: 10;
-  width: 106%;
-  margin-left: 4px;
+  width: 107%;
 }
 
 .border-mini {
@@ -392,10 +391,12 @@ footer {
   text-decoration: underline;
   font-weight: 700;
 }
-.text-page{
+
+.text-page {
   border: 2px solid red;
 }
-.h1Full{
+
+.h1Full {
   position: absolute;
   margin-top: -450px;
   margin-left: 470px;
@@ -409,106 +410,116 @@ footer {
   border-radius: 8px;
   color: white;
 }
+.p .email{
+  color: white;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     min-width: 800px;
   }
-.border{
-  display: none;
-
-}
-  .navbar ul {
-    display: flex;
-    position: absolute;
-    right: 0;
-    padding: 10px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar img {
-    position: absolute;
-    left: 0;
-    margin-left: 20px;
-
-  }
-
-  .navbar ul li {
-    display: none;
-  }
-
-
-
-  .main h1 {
-    font-size: 70px;
-  }
-
-  .bottom-p {
-    width: 700px;
-  }
-
-  .table {
-    margin-left: -48px;
-  }
-
-  .main {
-    margin-left: -43px;
-    line-height: 30px;
-  }
-
-  .footer {
-    background: #000;
-    min-height: auto;
-  }
-
-  .card-footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 250px;
-  }
-
-  .icoun a {
-    width: 60px;
-    height: 60px;
-  }
-
-  .icoun {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: -40px;
-
-  }
-
-  .text {
-    width: 100%;
-    font-size: 35px;
-
-  }
 
   .border {
-    min-width: 892px;
+    display: none;
+
   }
 
-  .bottom {
-    left: 0;
-  }
 
-  .table {
-    margin-left: 1px;
-  }
+.menu {
+  display: none;
 }
 
+.navbar ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+
+}
+
+.navbar ul li {
+  display: none;
+}
+
+
+
+.main h1 {
+  font-size: 70px;
+}
+
+.bottom-p {
+  width: 700px;
+}
+
+.table {
+  margin-left: -48px;
+}
+
+.main {
+  margin-left: -43px;
+  line-height: 30px;
+}
+
+.footer {
+  background: #000;
+  min-height: auto;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.icoun a {
+  width: 60px;
+  height: 60px;
+}
+
+.icoun {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: -40px;
+
+}
+
+.text {
+  width: 100%;
+  font-size: 35px;
+
+}
+
+.border {
+  min-width: 892px;
+}
+
+.bottom {
+  left: 0;
+}
+
+.table {
+  margin-left: 1px;
+}
+}
 @media only screen and (max-width: 700px) {
   .container {
     max-width: 700px;
   }
-  .border{
+
+  .border {
     display: none;
-  
+
   }
 
   .navbar ul {
@@ -575,9 +586,10 @@ footer {
   .logo {
     width: 150px;
   }
-  .border{
+
+  .border {
     display: none;
-  
+
   }
 
   .navbar ul {

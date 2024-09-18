@@ -26,3 +26,17 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Error loading translations:', error));
 });
+// app.js
+// app.js
+
+// app.js
+
+document.addEventListener('DOMContentLoaded', function() {
+  var menuIcon = document.querySelector('.menu'); // Menyu ikonkasi
+  var sidebar = document.querySelector('.sidebar'); // Sidebar
+
+  menuIcon.addEventListener('click', function() {
+    sidebar.classList.toggle('open'); // Sidebarni ochish/yopish
+  });
+});
+
