@@ -414,17 +414,18 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
   .container {
-    min-width: 800px;
+    min-width: 900px;
   }
 
   .border {
     display: none;
 
   }
-
-
+  .two-text{
+    font-size: 60px;
+  }
 .menu {
   display: none;
 }
@@ -471,16 +472,13 @@ footer {
   line-height: 30px;
 }
 
-.footer {
+footer {
   background: #000;
   min-height: auto;
+  height: auto;
+  width: 900px  ;
 }
 
-.card-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
 .icoun a {
   width: 60px;
@@ -490,7 +488,6 @@ footer {
 .icoun {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: -40px;
 
 }
 
@@ -513,10 +510,9 @@ footer {
 }
 }
 @media only screen and (max-width: 700px) {
-  .container {
-    max-width: 700px;
-  }
-
+.container{
+  width: 700px;
+}
   .border {
     display: none;
 
