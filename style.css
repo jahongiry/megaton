@@ -26,11 +26,8 @@ body {
   width: 100%;
   height: 100%;
   background-size: cover;
-  /* Rasmni konteynerga to'liq joylash */
   background-position: center;
-  /* Rasmning markaziy qismini ko'rsatish */
   background-repeat: no-repeat;
-  /* Rasm takrorlanmasligi uchun */
 }
 
 
@@ -153,7 +150,7 @@ body {
   transition: width 0.3s ease;
 }
 
-.main a:hover::after {
+.main a:hover::after::after {
   width: 100%;
 }
 
@@ -204,7 +201,7 @@ body {
   position: absolute;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
   opacity: 10;
-  width: 107%;
+  width: 100%;
 }
 
 .border-mini {
@@ -291,8 +288,12 @@ body {
   --main-color: #FD9200;
 }
 
+.icoun{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .icoun a {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 3.5rem;
@@ -301,7 +302,7 @@ body {
   font-size: 2.5rem;
   border-radius: 50%;
   color: black;
-  margin: 3rem 1.5rem 3rem 0;
+  margin: 1rem 0rem 1rem;
   transition: 0.3s ease-in-out;
   background: white;
   transition: 1s;
@@ -324,7 +325,6 @@ footer {
 
 .container-card {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 30px;
   gap: 60px;
   justify-content: center;
