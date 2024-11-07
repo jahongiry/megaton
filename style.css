@@ -288,10 +288,11 @@ body {
   --main-color: #FD9200;
 }
 
-.icoun{
+.icoun {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .icoun a {
   display: flex;
   justify-content: center;
@@ -415,7 +416,7 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .container {
     min-width: 900px;
   }
@@ -657,4 +658,80 @@ footer {
   .text {
     font-size: 40px;
   }
+} */
+
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 400px;
+  }
+
+  .navbar {
+    width: 400px;
+  }
+
+  .sidebar ul li {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+  }
+
+  .menu {
+    display: flex;
+    width: 30px;
+    height: 20px;
+  }
+
+  .logo {
+    width: 100px;
+    margin-left: -80px;
+    height: 20px;
+  }
+
+  .button {
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .text {
+    font-size: 25px;
+    width: 400px;
+  }
+
+  .two-text {
+    font-size: 28px;
+  }
+
+  .table {
+    width: 400px;
+  }
+
+  .card p {
+    font-size: 8px;
+  }
+
+  .container-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  footer {
+    height: auto;
+  }
+  .card-footer p{
+    font-size: 12px;
+  }
+  .border-footer{
+    display: none;
+  }
+  .icoun{
+  }
+
 }
